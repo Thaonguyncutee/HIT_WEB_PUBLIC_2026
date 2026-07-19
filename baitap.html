@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thông Tin Cá Nhân</title>
+    
+    <!-- Thử thách: Thêm favicon (Biểu tượng nhỏ trên tab trình duyệt) -->
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/1144/1144760.png" />
+  </head>
+
+  <body>
+    <!-- 1. PHẦN ĐẦU TRANG -->
+    <header>
+      <h1>THÔNG TIN CÁ NHÂN</h1>
+      <nav>
+        <ul>
+          <li><a href="#thong-tin">Thông tin</a></li>
+          <li><a href="#gioi-thieu">Giới thiệu</a></li>
+          <li><a href="#so-thich">Sở thích</a></li>
+          <li><a href="#ky-nang">Kỹ năng</a></li>
+          <li><a href="#thoi-khoa-bieu">Thời khóa biểu</a></li>
+          <li><a href="#lien-he">Liên hệ</a></li>
+        </ul>
+      </nav>
+      <hr /> <!-- Thẻ tạo đường kẻ ngang để phân cách -->
+    </header>
+
+    <!-- 2. THÔNG TIN CÁ NHÂN -->
+    <section id="thong-tin">
+      <h2>Thông tin cá nhân</h2>
+      <!-- Thử thách: Dùng link ảnh online -->
+      <img src="https://i.pinimg.com/originals/85/97/43/8597430660c7fec44b74cb3e695e7554.jpg" alt="Ảnh đại diện của tôi" width="150" height="150" />
+      <p>
+        <strong>Họ và tên:</strong> Nguyễn Văn A <br />
+        <strong>Tuổi:</strong> 20 <br />
+        <strong>Trường:</strong> Đại học Công nghệ <br />
+        <strong>Ngành học:</strong> Lập trình Web <br />
+        <strong>Lớp:</strong> HIT-Web <br />
+        <strong>Email:</strong> nguyenvana@gmail.com <br />
+        <strong>Số điện thoại:</strong> 0123.456.789
+      </p>
+    </section>
+
+    <!-- 3. GIỚI THIỆU BẢN THÂN -->
+    <section id="gioi-thieu">
+      <h2>Giới thiệu bản thân</h2>
+      <p>Xin chào, mình là Nguyễn Văn A. Mình hiện đang theo học khóa Lập trình Web. Mình có niềm đam mê mãnh liệt với công nghệ thông tin, đặc biệt là việc tạo ra những trang web tương tác và đẹp mắt.</p>
+      <p>Mục tiêu trong tương lai gần của mình là nắm vững HTML, CSS và JavaScript để trở thành một Lập trình viên Front-end chuyên nghiệp, sau đó sẽ tìm cơ hội thực tập tại các công ty công nghệ.</p>
+    </section>
+
+    <!-- 4. SỞ THÍCH -->
+    <section id="so-thich">
+      <h2>Sở thích</h2>
+      <!-- Dùng thẻ ul để tạo danh sách không đánh số -->
+      <ul>
+        <li>Đọc sách công nghệ</li>
+        <li>Nghe nhạc thư giãn</li>
+        <li>Chơi thể thao (Cầu lông, Chạy bộ)</li>
+        <li>Du lịch khám phá</li>
+        <li>Lập trình và giải thuật</li>
+      </ul>
+    </section>
+
+    <!-- 5. KỸ NĂNG -->
+    <section id="ky-nang">
+      <h2>Kỹ năng</h2>
+      <!-- Dùng thẻ ol để tạo danh sách có đánh số thứ tự -->
+      <ol>
+        <li>HTML cơ bản</li>
+        <li>CSS (Sắp học)</li>
+        <li>JavaScript (Sắp học)</li>
+        <li>Sử dụng Git</li>
+        <li>Làm việc nhóm</li>
+      </ol>
+    </section>
+
+    <!-- 6. THỜI KHÓA BIỂU -->
+    <section id="thoi-khoa-bieu">
+      <h2>Thời khóa biểu</h2>
+      <table border="1">
+        <!-- Nhóm phần tiêu đề của bảng -->
+        <thead>
+          <tr>
+            <th>Thứ</th>
+            <th>Môn học</th>
+            <th>Phòng học</th>
+          </tr>
+        </thead>
+        <!-- Nhóm phần thân (nội dung) của bảng -->
+        <tbody>
+          <tr>
+            <td>Thứ 2</td>
+            <td>Lập trình Web cơ bản</td>
+            <td>Phòng 301</td>
+          </tr>
+          <tr>
+            <td>Thứ 3</td>
+            <td>Cấu trúc dữ liệu</td>
+            <td>Phòng 202</td>
+          </tr>
+          <tr>
+            <td>Thứ 4</td>
+            <td>Mạng máy tính</td>
+            <td>Phòng 105</td>
+          </tr>
+          <tr>
+            <td>Thứ 5</td>
+            <td>Hệ quản trị CSDL</td>
+            <td>Phòng 403</td>
+          </tr>
+          <tr>
+            <td>Thứ 6</td>
+            <td>Tự học trên thư viện</td>
+            <td>Phòng Đọc</td>
+          </tr>
+        </tbody>
+        <!-- Nhóm phần cuối của bảng -->
+        <tfoot>
+          <tr>
+            <!-- Sử dụng colspan="3" để gộp 3 cột lại làm 1 -->
+            <td colspan="3"><b>Tổng cộng 5 buổi học</b></td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <!-- 7. FORM LIÊN HỆ -->
+    <section id="lien-he">
+      <h2>Form liên hệ</h2>
+      <form>
+        <label for="hoten">Họ tên:</label><br />
+        <input type="text" id="hoten" name="hoten" /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <!-- Dùng type="email" để trình duyệt tự kiểm tra định dạng email -->
+        <input type="email" id="email" name="email" /><br /><br />
+
+        <label for="matkhau">Mật khẩu:</label><br />
+        <input type="password" id="matkhau" name="matkhau" /><br /><br />
+
+        <label>Giới tính:</label><br />
+        <!-- Dùng radio cho giới tính vì chỉ được chọn 1 -->
+        <input type="radio" id="nam" name="gioitinh" value="Nam" />
+        <label for="nam">Nam</label><br />
+        <input type="radio" id="nu" name="gioitinh" value="Nu" />
+        <label for="nu">Nữ</label><br /><br />
+
+        <label>Sở thích cá nhân:</label><br />
+        <!-- Dùng checkbox vì có thể chọn nhiều -->
+        <input type="checkbox" id="game" name="sothich" value="Game" />
+        <label for="game">Chơi game</label><br />
+        <input type="checkbox" id="phim" name="sothich" value="Phim" />
+        <label for="phim">Xem phim</label><br /><br />
+
+        <label for="nganhhoc">Ngành học:</label><br />
+        <!-- Dùng select để tạo danh sách thả xuống -->
+        <select id="nganhhoc" name="nganhhoc">
+          <option value="cntt">Công nghệ thông tin</option>
+          <option value="kt">Kinh tế</option>
+          <option value="tkdh">Thiết kế đồ họa</option>
+        </select><br /><br />
+
+        <label for="loichao">Giới thiệu bản thân:</label><br />
+        <textarea id="loichao" name="loichao" rows="5" cols="40"></textarea><br /><br />
+
+        <button type="button">Gửi Thông Tin</button>
+      </form>
+    </section>
+
+    <!-- 8. LIÊN HỆ KẾT NỐI -->
+    <section id="mang-xa-hoi">
+      <h2>Kết nối với mình</h2>
+      <p>
+        <!-- Lưu ý: Trong lý thuyết của bạn có ghi là "_target", nhưng từ khóa chuẩn xác của HTML để mở tab mới là "_blank". Mình sẽ dùng chuẩn "_blank" để trang web chạy đúng. -->
+        <a href="https://facebook.com" target="_blank">Facebook</a> | 
+        <a href="https://github.com" target="_blank">Github</a> | 
+        <a href="mailto:nguyenvana@gmail.com">Gửi Email (Gmail)</a>
+      </p>
+    </section>
+
+    <!-- 9. CUỐI TRANG -->
+    <hr />
+    <footer>
+      <p>&copy; 2024 Bản quyền thuộc về Nguyễn Văn A. Trải nghiệm HTML cơ bản.</p>
+    </footer>
+
+  </body>
+</html>
+</body>
+</html>
